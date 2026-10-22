@@ -1,15 +1,17 @@
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
+
 export const personalInfo = {
   name: "Seddam Tarun Theja",
   headline: "Final-Year Computer Science Engineering Student",
   status: "Open to Full-Time Opportunities",
   subStatus: "Fresher Seeking Software Engineering & Python Developer Roles",
   location: "Ongole, Andhra Pradesh, India",
-  photo: "/tarun-theja.jpg",
+  photo: `${base}tarun-theja.jpg`,
   email: "siddemtharunteja@gmail.com",
   phone: "+91-7989470772",
   github: "https://github.com/Tharunteja9948",
   linkedin: "https://www.linkedin.com/in/seddam-tarun-theja-348341246?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-  resumePath: "/Seddam_Tarun_Theja_Resume.pdf",
+  resumePath: `${base}Seddam_Tarun_Theja_Resume.pdf`,
   resumeFilename: "Seddam_Tarun_Theja_Resume.pdf",
   bio: "I'm a Computer Science Engineering student who enjoys building practical software solutions using Python, web technologies, and data analytics. I like turning ideas into useful applications and continuously improving my technical skills through hands-on projects.",
   longBio: "Detail-oriented Computer Science & Engineering undergraduate at QIS College of Engineering and Technology with proven hands-on experience in Python programming, full-stack web application development, and data analytics. Experienced in building scalable AI-powered platforms, implementing RESTful APIs, relational databases (MySQL), and predictive analytics models. Adept in Data Structures, Algorithms, and Object-Oriented Programming (OOP) with strong problem-solving capabilities, seeking to engineer reliable and impactful software solutions.",
@@ -277,8 +279,8 @@ export const internships = [
     grade: "Grade O (Outstanding: 90-100)",
     certificateId: "Certificate ID: 4abfba1730675e34a475",
     studentId: "Student ID: STU680ce0d1bdf431745674449",
-    certificatePdf: "/certificates/EduSkills_Python_Fullstack_Internship_Tarun_Theja.pdf",
-    certificateImage: "/certificates/eduskills_python_fullstack.png",
+    certificatePdf: `${base}certificates/EduSkills_Python_Fullstack_Internship_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/eduskills_python_fullstack.png`,
     summary: "8-week comprehensive practical internship focusing on Python full-stack architectures, modular backend services, and database integration.",
     bulletPoints: [
       "Built end-to-end Python backend components and integrated RESTful endpoints with frontend interfaces.",
@@ -300,8 +302,8 @@ export const internships = [
     grade: "Grade P (Pass / Verified)",
     certificateId: "Certificate ID: 70038f9b1aca63c3e83e34669039ec4b",
     studentId: "Student ID: STU680ce0d1bdf431745674449",
-    certificatePdf: "/certificates/EduSkills_Web_Full_Stack_Internship_Tarun_Theja.pdf",
-    certificateImage: "/certificates/eduskills_web_fullstack.png",
+    certificatePdf: `${base}certificates/EduSkills_Web_Full_Stack_Internship_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/eduskills_web_fullstack.png`,
     summary: "10-week intensive web development internship covering modern responsive web standards, frontend layouts, and full-stack connectivity.",
     bulletPoints: [
       "Completed practical training in responsive web design, semantic layouts, and DOM scripting.",
@@ -326,8 +328,8 @@ export const jobSimulations = [
     signatory: "Tina McCreery, Chief Human Resources Officer, Deloitte",
     certificateId: "Enrolment Code: 4LrkXCT7hv7pd7d9h",
     userVerificationCode: "User Code: 69cffc7581f1094130b8a337",
-    certificatePdf: "/certificates/Deloitte_Data_Analytics_Simulation_Tarun_Theja.pdf",
-    certificateImage: "/certificates/deloitte_simulation.png",
+    certificatePdf: `${base}certificates/Deloitte_Data_Analytics_Simulation_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/deloitte_simulation.png`,
     summary: "Practical corporate job simulation solving real enterprise analytics and technology consulting scenarios.",
     bulletPoints: [
       "Completed hands-on practical tasks in enterprise Data Analysis and Forensic Technology.",
@@ -349,8 +351,8 @@ export const jobSimulations = [
     signatory: "Tom Brunskill, Co-Founder of Forage",
     certificateId: "Enrolment Code: Da5aoBmtfWnLgmmPm",
     userVerificationCode: "User Code: 69cffc7581f1094130b8a337",
-    certificatePdf: "/certificates/Tata_GenAI_Data_Analytics_Simulation_Tarun_Theja.pdf",
-    certificateImage: "/certificates/tata_simulation.png",
+    certificatePdf: `${base}certificates/Tata_GenAI_Data_Analytics_Simulation_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/tata_simulation.png`,
     summary: "Cutting-edge corporate simulation combining exploratory analytics with generative AI for strategic business intelligence.",
     bulletPoints: [
       "Executed Exploratory Data Analysis (EDA) and financial risk profiling to predict delinquency with AI.",
@@ -404,8 +406,8 @@ export const certifications = [
     score: "67% Consolidated (Online Assignments: 25/25, Proctored Exam: 42.19/75)",
     credentialId: "Roll No: NPTEL26CS86S651601730",
     credits: "4 Credits Recommended",
-    certificatePdf: "/certificates/NPTEL_Data_Analytics_with_Python_Tarun_Theja.pdf",
-    certificateImage: "/certificates/nptel_data_analytics.png",
+    certificatePdf: `${base}certificates/NPTEL_Data_Analytics_with_Python_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/nptel_data_analytics.png`,
     description: "Rigorous 12-week national certification covering statistical analysis, exploratory data analysis (EDA), data wrangling, and predictive modeling using Python."
   },
   {
@@ -418,8 +420,8 @@ export const certifications = [
     score: "240 Hours Intensive Curriculum",
     credentialId: "Validity Authorized by Skill India Digital Hub",
     credits: "Comprehensive Coursework",
-    certificatePdf: "/certificates/Reliance_Front_End_Web_Development_Tarun_Theja.pdf",
-    certificateImage: "/certificates/reliance_frontend.png",
+    certificatePdf: `${base}certificates/Reliance_Front_End_Web_Development_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/reliance_frontend.png`,
     description: "Practical 240-hour curriculum covering semantic HTML5 structure, modern CSS3 styling, responsive grid architectures, and client-side web development."
   },
   {
@@ -432,8 +434,8 @@ export const certifications = [
     score: "40 Hours Coursework",
     credentialId: "Validity Authorized by Skill India Digital Hub",
     credits: "Foundation to Advanced",
-    certificatePdf: "/certificates/Microsoft_Python_Programming_Tarun_Theja.pdf",
-    certificateImage: "/certificates/microsoft_python.png",
+    certificatePdf: `${base}certificates/Microsoft_Python_Programming_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/microsoft_python.png`,
     description: "Industry-standard course offered by Microsoft covering core Python syntax, OOP principles, data structures, and modular algorithmic design."
   }
 ];
