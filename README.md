@@ -1,16 +1,53 @@
-# React + Vite
+# Seddam Tarun Theja | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal developer portfolio and interactive showcase of **Seddam Tarun Theja** — Computer Science & Engineering undergraduate specializing in **Python Development**, **Software Engineering**, and **Data Analytics**.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://tharunteja9948.github.io/Portfolio/](https://tharunteja9948.github.io/Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React 19, Three.js, React Three Fiber, Lucide Icons, Custom CSS
+- **Core Skills:** Python, SQL (MySQL), JavaScript (ES6+), HTML5, CSS3, Django, Bootstrap
+- **Data & Analytics:** Pandas, NumPy, Matplotlib, Exploratory Data Analysis (EDA), Data Cleaning, Data Visualization
+- **Build & CI/CD:** Vite, GitHub Actions, GitHub Pages
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📁 Key Features
+
+- **Interactive 3D Elements:** Three.js interactive visualizer and responsive design.
+- **Project Showcase:** Direct GitHub repository links, architecture highlights, and technical stack details.
+- **Official ATS Resume:** Verified single-page ATS-compliant resume accessible via modal preview and direct PDF download.
+- **Verified Credentials:** Previews and credential verification for NPTEL (IIT Roorkee), Microsoft, Reliance, EduSkills, Deloitte, and Tata simulations.
+- **Direct Contact Channel:** Functional contact form integrated with direct email delivery.
+
+---
+
+## 🛠️ Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/Tharunteja9948/Portfolio.git
+
+# Navigate to project folder
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## 📬 Contact & Connect
+
+- **Email:** [siddemtharunteja@gmail.com](mailto:siddemtharunteja@gmail.com)
+- **LinkedIn:** [linkedin.com/in/seddam-tarun-theja](https://www.linkedin.com/in/seddam-tarun-theja-348341246)
+- **GitHub:** [github.com/Tharunteja9948](https://github.com/Tharunteja9948)
