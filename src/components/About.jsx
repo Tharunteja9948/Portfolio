@@ -44,7 +44,7 @@ export default function About() {
                 Rather than treating coding as purely theoretical, I focus on turning real requirements into functioning, scalable software. Whether it's architecting an automated mock interview platform with adaptive question routing and hardware checks, building an emergency call forecasting dashboard for Andhra Pradesh districts, or optimizing database queries for instant recipe recommendations, I build with attention to clean code, database integrity, and practical usability.
               </p>
               <p>
-                Having completed hands-on virtual job simulations with <strong>Deloitte / TATA Group via Forage</strong> (risk profiling & collections strategy) and <strong>EduSkills</strong> (full-stack web workflows), I have developed a disciplined approach to version control, RESTful APIs, and end-to-end development. I am eager to contribute my skills to a collaborative engineering team as a <strong>Python Developer or Software Engineer</strong>.
+                Having completed hands-on virtual job simulations with <strong>Commonwealth Bank, Deloitte & TATA Group via Forage</strong> (software engineering, cybersecurity, risk profiling & collections strategy) and <strong>EduSkills</strong> (full-stack web workflows), I have developed a disciplined approach to version control, RESTful APIs, and end-to-end development. I am eager to contribute my skills to a collaborative engineering team as a <strong>Python Developer or Software Engineer</strong>.
               </p>
             </div>
 

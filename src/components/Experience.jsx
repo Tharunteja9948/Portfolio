@@ -50,21 +50,21 @@ export default function Experience() {
               className={`filter-pill-btn ${activeFilter === 'all' ? 'active' : ''}`}
               onClick={() => setActiveFilter('all')}
             >
-              All Experience (4)
+              All Experience ({experience.length})
             </button>
             <button
               type="button"
               className={`filter-pill-btn ${activeFilter === 'internship' ? 'active' : ''}`}
               onClick={() => setActiveFilter('internship')}
             >
-              💼 Virtual Internships (2)
+              💼 Virtual Internships ({internships.length})
             </button>
             <button
               type="button"
               className={`filter-pill-btn ${activeFilter === 'simulation' ? 'active' : ''}`}
               onClick={() => setActiveFilter('simulation')}
             >
-              🏢 Job Simulations (2)
+              🏢 Job Simulations ({jobSimulations.length})
             </button>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function Experience() {
             <Award size={20} className="text-accent" />
           </div>
           <p className="clarification-text">
-            <strong>Professional Transparency:</strong> The experiences above represent structured virtual internships (accredited through AICTE &amp; EduSkills) and industry job simulations (via Forage with Deloitte &amp; Tata Group). All 4 credentials are documented with verifiable certificate codes and institutional sign-offs.
+            <strong>Professional Transparency:</strong> The experiences above represent structured virtual internships (accredited through AICTE &amp; EduSkills) and industry job simulations (via Forage with Commonwealth Bank, Deloitte &amp; Tata Group). All 5 credentials are documented with verifiable certificate codes and institutional sign-offs.
           </p>
         </div>
       </div>

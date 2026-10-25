@@ -55,7 +55,7 @@ export const tailoredResumes = [
 export const stats = [
   { label: "B.Tech CGPA", value: "7.33 / 10", subtitle: "QIS College of Engg. & Tech (2023–2027)" },
   { label: "Core Projects", value: "3", subtitle: "AI Platform, Call Analytics, Recipe Engine" },
-  { label: "Internships & Sims", value: "4", subtitle: "2 EduSkills · Deloitte · Tata" },
+  { label: "Internships & Sims", value: "5", subtitle: "2 EduSkills · CommBank · Deloitte · Tata" },
   { label: "Availability", value: "Immediate", subtitle: "Open to Full-Time / Fresher Roles" }
 ];
 
@@ -315,6 +315,29 @@ export const internships = [
 ];
 
 export const jobSimulations = [
+  {
+    id: "commonwealth-bank-simulation",
+    type: "Job Simulation",
+    category: "simulation",
+    badge: "Commonwealth Bank · Forage Verified",
+    company: "Commonwealth Bank (Issued by Forage)",
+    role: "Introduction to Software Engineering Job Simulation",
+    period: "October 2026",
+    completionDate: "October 25th, 2026",
+    location: "Remote / Virtual",
+    signatory: "Tom Brunskill, Co-Founder of Forage",
+    certificateId: "Enrolment Code: 6adb4d9ade57a23d97ff297d",
+    userVerificationCode: "User Code: 69cffc7581f1094130b8a337",
+    certificatePdf: `${base}certificates/Commonwealth_Bank_Software_Engineering_Simulation_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/commonwealth_bank_simulation.png`,
+    summary: "Practical software engineering simulation covering responsive website architecture, financial cybersecurity analysis, and cloud hosting infrastructure.",
+    bulletPoints: [
+      "Engineered and stylized responsive web interfaces adhering to modern accessibility and styling standards.",
+      "Analyzed financial cybersecurity protocols and threat mitigation principles for financial web systems.",
+      "Authored a structured web hosting proposal detailing cloud architecture, infrastructure requirements, and deployment strategy."
+    ],
+    skillsLearned: ["Software Engineering", "Web Development", "HTML5 & CSS3", "Financial Cybersecurity", "Web Hosting", "Cloud Infrastructure"]
+  },
   {
     id: "deloitte-simulation",
     type: "Job Simulation",
