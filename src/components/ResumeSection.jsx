@@ -183,7 +183,7 @@ export default function ResumeSection({ onOpenResumeModal }) {
                 <div className="scan-item">
                   <div className="scan-item-label">Industry Simulations</div>
                   <div className="scan-item-val">
-                    CommBank (Software Engg) &middot; Deloitte &middot; TATA Group &middot; EduSkills
+                    Datacom &middot; CommBank &middot; Deloitte &middot; TATA Group &middot; EduSkills
                   </div>
                 </div>
               </div>

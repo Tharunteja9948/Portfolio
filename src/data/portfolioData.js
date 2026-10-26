@@ -55,7 +55,7 @@ export const tailoredResumes = [
 export const stats = [
   { label: "B.Tech CGPA", value: "7.33 / 10", subtitle: "QIS College of Engg. & Tech (2023–2027)" },
   { label: "Core Projects", value: "3", subtitle: "AI Platform, Call Analytics, Recipe Engine" },
-  { label: "Internships & Sims", value: "5", subtitle: "2 EduSkills · CommBank · Deloitte · Tata" },
+  { label: "Internships & Sims", value: "6", subtitle: "2 EduSkills · Datacom · CommBank · Deloitte · Tata" },
   { label: "Availability", value: "Immediate", subtitle: "Open to Full-Time / Fresher Roles" }
 ];
 
@@ -315,6 +315,29 @@ export const internships = [
 ];
 
 export const jobSimulations = [
+  {
+    id: "datacom-simulation",
+    type: "Job Simulation",
+    category: "simulation",
+    badge: "Datacom · Forage Verified",
+    company: "Datacom (Issued by Forage)",
+    role: "Software Development Job Simulation",
+    period: "October 2026",
+    completionDate: "October 26th, 2026",
+    location: "Remote / Virtual",
+    signatory: "Tom Brunskill, Co-Founder of Forage",
+    certificateId: "Enrolment Code: 6addf5bcca8a9e0b8374c8ea",
+    userVerificationCode: "User Code: 69cffc7581f1094130b8a337",
+    certificatePdf: `${base}certificates/Datacom_Software_Development_Simulation_Tarun_Theja.pdf`,
+    certificateImage: `${base}certificates/datacom_simulation.png`,
+    summary: "Hands-on software development simulation involving codebase reviews, defect isolation, and targeted bug resolution.",
+    bulletPoints: [
+      "Conducted thorough technical software reviews to evaluate system logic, code readability, and architecture.",
+      "Identified root causes of reported application issues and defects through structured debugging.",
+      "Implemented reliable bug fixes to ensure operational software stability and quality."
+    ],
+    skillsLearned: ["Software Review", "Debugging", "Root Cause Analysis", "Code Quality", "Problem Solving"]
+  },
   {
     id: "commonwealth-bank-simulation",
     type: "Job Simulation",
